@@ -42,15 +42,36 @@ place instead of rewriting, and lets you download the result.
 
 <p align="center"><img src="assets/code.png" alt="The code panel next to a chat" width="900"></p>
 
+**Edits you can watch.** When the assistant changes a file, the lines it replaces turn red and the new
+ones appear in green as it types, and a GitHub-style diff lands under the reply. The code in the panel
+is yours to edit too, with Ctrl+S, and every file has a live link that updates while you work.
+
+<p align="center"><img src="assets/live-edit.gif" alt="The assistant editing a file: red lines out, green lines in, then the diff" width="900"></p>
+
+**Your editor, your colours.** Six colour themes for the code panel, from GitHub Light to One Dark and Dracula.
+
+<p align="center"><img src="assets/themes.png" alt="The code panel in the One Dark theme" width="900"></p>
+
 **Uses a browser, with your consent.** A built-in browser the assistant can drive: open, read, click,
 type. You choose how much it may do on its own, and every action shows as a card in the reply.
 
 <p align="center"><img src="assets/browser.png" alt="The browser agent reading Wikipedia beside the chat" width="900"></p>
 
-**Reads the web for you.** A self-hosted search engine behind Web search and Deep research, with the
-sources listed under every answer.
+**Point at anything.** Pick an element on a page, see what it is, and add it to your message. The
+assistant gets the selector, the role and the text, and finds the same element when it reads the page.
 
-<p align="center"><img src="assets/research.png" alt="Web research with cited sources" width="900"></p>
+<p align="center"><img src="assets/picker.gif" alt="Picking an element on a web page and adding it to the chat" width="900"></p>
+
+**Panels your way.** Dock the browser and the code panel left, right, top or bottom, fill the window,
+resize with a grip, or run both side by side on a wide screen. Any of them opens in its own HomeLLM window.
+
+<p align="center"><img src="assets/panels.png" alt="Code panel and browser side by side with the layout menu" width="900"></p>
+<p align="center"><img src="assets/popout.png" alt="A file preview in its own HomeLLM window" width="640"></p>
+
+**Reads the web for you.** A self-hosted search engine behind Web search and Deep research. Sources
+show up as chips right in the text; hover one to see what it is, click to open it.
+
+<p align="center"><img src="assets/sources.png" alt="Source chips in a reply with the hover card open" width="900"></p>
 
 **Sees and hears.** Drop in photos and PDFs. Dictate with offline speech recognition, pick your
 microphone, hold to talk.
@@ -90,8 +111,10 @@ The first public release includes the Windows desktop app, the server stack and 
 - [x] Chat, vision, dictation, web research, code panel
 - [x] Setup wizard with hardware scan and model recommendations
 - [x] Profiles, memory, incognito, power management
-- [x] Browser agent with consent modes
-- [x] Cross-device replies
+- [x] Browser agent with consent modes and an element picker
+- [x] Live edits with diffs, editable code panel, colour themes
+- [x] Dockable panels, side by side, pop-out windows
+- [x] Cross-device replies, in-app updates
 - [ ] HomeLLM Server package and installer
 - [ ] HomeLLM Network: connect from anywhere with zero configuration
 - [ ] Public release
